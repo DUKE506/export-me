@@ -2,11 +2,12 @@
 
 :root {
   /*기본 테마 색상*/
-  --background: #ffffff;
+  --background: #efede5;
   --foreground: #171717;
   --border: #d3d3d3;
   --default-rounded: 2px;
-  --primary: #d15b1b;
+  --primary: #eebe20;
+  --description: #5b5b5b;
 }
 
 [data-theme="dark"] {

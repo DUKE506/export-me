@@ -16,7 +16,7 @@ export function Time() {
     };
   }, []);
   return (
-    <div className="absolute right-10 top-10 flex flex-col justify-center items-end ">
+    <div className=" flex flex-col justify-center items-end ">
       <p className="text-xl">{format(time, "yyyy / MM / dd")}</p>
       <p className="text-xl">{format(time, "HH : mm")}</p>
     </div>
