@@ -10,7 +10,7 @@ import { HoverSlide } from "@/components/animation/hover/hover-slide";
 
 export default function Home() {
   return (
-    <div className="flex items-center h-full px-12 relative overflow-x-hidden">
+    <div className="flex items-center h-full mx-24 relative overflow-x-hidden">
       <SlideInFormRight className="absolute right-10 top-10 flex flex-col items-end gap-12">
         <Time />
         <LoginButton />
